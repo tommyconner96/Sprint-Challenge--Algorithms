@@ -2,14 +2,15 @@
 
 ## Exercise I
 
-a) O(logn)
+a) O(n)
 
-since the loop increases a by n^2, while comparing it to n^3, the n^2 line will finish faster than the n^3 line. 
+loop is dependent on the value of n and the while loop is while a < n^3, set a to a+n^2 thus the difference is n
 
 b) O(n log n)
 
 the outside for loop will keep running until n is computed.
-the inside loop will take significantly less time to compute because it's multiplying by 2 each time
+it will run n times
+the inside loop will take significantly less time to compute because it's multiplying by 2 each time so it will run logn times
 
 c) O(n)
 
@@ -22,3 +23,5 @@ It will start in the middle, and then evaluates left and right.
 it will cancel out half the options so leaving us with the smallest amount of broken eggs.
 
 runtime: o(logn)
+
+
