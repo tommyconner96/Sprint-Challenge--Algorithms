@@ -12,8 +12,11 @@ def count_th(word):
         return False
     # recursion case:  
     if word[0:2] == word_contains:
+        # if the first 2 indexes = the string, return 1 and then run it again starting
+        # from 2 etc etc
         return 1 + count_th(word[2:])
     else:
+        # after recursion return:
         return count_th(word[1:])
 
 
