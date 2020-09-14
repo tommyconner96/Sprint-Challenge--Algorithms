@@ -7,7 +7,7 @@ def count_th(word):
     # define the string we're looking for
     word_contains = "th"
 
-    # base case: if it's less than 2 we know it can't have 'th in it.
+    # base case: if it's less than 2 we know it can't have 'th' in it.
     if len(word) < 2:
         return False
     # recursion case:  
